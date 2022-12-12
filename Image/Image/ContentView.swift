@@ -13,9 +13,9 @@ struct ContentView: View {
             Image("Toronto")
                 .resizable()
                 .scaledToFit()
-                .cornerRadius(25)
-                .padding(20)
-                .shadow(color: Color.black, radius: 5, x: 5, y: 5)
+                .padding()
+                .scaleEffect(CGSize(width: 0.5, height: 0.5))
+                .blur(radius: 5)
         }
     }
 }

@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ScaledMetric var customSize: CGFloat = 100
+
     var body: some View {
         VStack {
             Image("Toronto")
                 .resizable()
-                .scaledToFit()
-                .padding()
-                .scaleEffect(CGSize(width: 0.5, height: 0.5))
-                .blur(radius: 5)
+                .frame(width: customSize, height: customSize)
         }
     }
 }

@@ -11,6 +11,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image("Toronto")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 250, height: 100)
+                .clipped()
         }
     }
 }

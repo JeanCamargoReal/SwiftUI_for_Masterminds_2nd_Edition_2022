@@ -12,9 +12,10 @@ struct ContentView: View {
         VStack {
             Image("Toronto")
                 .resizable()
-                .scaledToFill()
-                .frame(width: 250, height: 100)
-                .clipped()
+                .scaledToFit()
+                .cornerRadius(25)
+                .padding(20)
+                .shadow(color: Color.black, radius: 5, x: 5, y: 5)
         }
     }
 }

@@ -14,7 +14,9 @@ struct ContentView: View {
             Image(systemName: "mic.badge.plus")
                 .font(Font.system(size: 100).weight(.semibold))
                 .symbolVariant(.fill)
-                .symbolRenderingMode(.multicolor)
+//                .symbolRenderingMode(.multicolor)
+                .symbolRenderingMode(.palette)
+                .foregroundStyle(.red, .blue)
         }
     }
 }

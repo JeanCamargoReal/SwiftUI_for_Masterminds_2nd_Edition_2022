@@ -17,6 +17,11 @@ struct ContentView: View {
 //                .symbolRenderingMode(.multicolor)
                 .symbolRenderingMode(.palette)
                 .foregroundStyle(.red, .blue)
+
+            Label("Hello", systemImage: "envelope.circle")
+                .font(.largeTitle)
+                .labelStyle(.titleAndIcon)
+                .imageScale(.large)
         }
     }
 }

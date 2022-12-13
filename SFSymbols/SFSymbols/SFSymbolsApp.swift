@@ -1,14 +1,14 @@
 //
-//  testApp.swift
-//  test
+//  SFSymbolsApp.swift
+//  SFSymbols
 //
-//  Created by Jean Camargo on 10/12/22.
+//  Created by Jean Camargo on 13/12/22.
 //
 
 import SwiftUI
 
 @main
-struct testApp: App {
+struct SFSymbolsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

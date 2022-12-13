@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "envelope")
+                .font(Font.system(size: 100).weight(.semibold))
         }
     }
 }

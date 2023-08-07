@@ -10,17 +10,17 @@ import SwiftUI
 struct ContentView: View {
 
 	@State private var title: String = "Default Title"
-	@State private var titleActive: Bool = false
 	@State private var titleInput: String = ""
 
 	var body: some View {
 		VStack {
-			HeaderView(title: $title)
-			TextField("Insert Title", text: $titleInput)
+			Text(_title.wrappedValue)
+				.padding(10)
+			TextField("Insert Title", text: _titleInput.projectedValue)
 				.textFieldStyle(.roundedBorder)
 			Button {
-				title = "My New Title"
-				titleInput = ""
+				_title.wrappedValue = _titleInput.wrappedValue
+				_titleInput.wrappedValue = ""
 			} label: {
 				Text("Change Title")
 			}

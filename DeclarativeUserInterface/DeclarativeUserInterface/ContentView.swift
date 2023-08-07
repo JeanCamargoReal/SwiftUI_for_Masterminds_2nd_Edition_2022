@@ -15,20 +15,26 @@ struct ContentView: View {
 
 	var body: some View {
 		VStack {
-			Text(title)
-				.padding(10)
-				.foregroundColor(titleActive ? .red : .gray)
+			HeaderView(title: $title)
 			TextField("Insert Title", text: $titleInput)
 				.textFieldStyle(.roundedBorder)
 			Button {
 				title = "My New Title"
-				titleActive = true
 				titleInput = ""
 			} label: {
 				Text("Change Title")
 			}
 			Spacer()
 		}.padding()
+	}
+}
+
+struct HeaderView: View {
+	@Binding var title: String
+
+	var body: some View {
+		Text(title)
+			.padding(10)
 	}
 }
 

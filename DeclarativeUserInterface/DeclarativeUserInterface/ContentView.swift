@@ -53,11 +53,7 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
 	static var previews: some View {
-		let constantValue = Binding<String>(
-			get: { return "My Preview Title"},
-			set: { value in print(value)})
-
-		return HeaderView(title: constantValue)
+		HeaderView(title: .constant("My Preview Title"))
 	}
 }
 

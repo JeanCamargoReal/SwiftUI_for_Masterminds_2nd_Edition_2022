@@ -18,13 +18,12 @@ struct ContentView: View {
 
 	var body: some View {
 		VStack {
-			Text(_title.wrappedValue)
-				.padding(10)
-			TextField("Insert Title", text: _titleInput.projectedValue)
+			HeaderView(title: $title)
+			TextField("Insert Title", text: $titleInput)
 				.textFieldStyle(.roundedBorder)
 			Button {
-				_title.wrappedValue = _titleInput.wrappedValue
-				_titleInput.wrappedValue = ""
+				title = titleInput
+				titleInput = ""
 			} label: {
 				Text("Change Title")
 			}
@@ -36,8 +35,18 @@ struct ContentView: View {
 struct HeaderView: View {
 	@Binding var title: String
 
+	let counter: Int
+
+	init(title: Binding<String>) {
+		_title = title
+
+		let sentence = _title.wrappedValue
+
+		counter = sentence.count
+	}
+
 	var body: some View {
-		Text(title)
+		Text("\(title)(\(counter))")
 			.padding(10)
 	}
 }

@@ -12,6 +12,10 @@ struct ContentView: View {
 	@State private var title: String = "Default Title"
 	@State private var titleInput: String = ""
 
+	init() {
+		_titleInput = State(initialValue: "Hello World")
+	}
+
 	var body: some View {
 		VStack {
 			Text(_title.wrappedValue)

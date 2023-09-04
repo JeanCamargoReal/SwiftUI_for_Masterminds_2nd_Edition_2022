@@ -15,6 +15,11 @@ struct ContentView: View {
     @ObservedObject var contentData = ContentViewData()
     @ObservedObject var appData: ApplicationData
     
+    init(appData: ApplicationData) {
+        self.appData = appData
+        contentData.titleInput = self.appData.title
+    }
+    
     var body: some View {
         VStack(spacing: 8) {
             Text(appData.title)

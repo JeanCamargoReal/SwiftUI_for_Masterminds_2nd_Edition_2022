@@ -11,11 +11,17 @@ struct ContentView: View {
     @ObservedObject var appData: ApplicationData
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 8) {
+            Text(appData.title)
+                .padding(10)
+            TextField("Insert Title", text: $appData.titleInput)
+                .textFieldStyle(.roundedBorder)
+            Button {
+                appData.title = appData.titleInput
+            } label: {
+                Text("Save")
+            }
+            Spacer()
         }
         .padding()
     }

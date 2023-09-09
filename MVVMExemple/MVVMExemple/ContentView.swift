@@ -13,7 +13,7 @@ class ContentViewData: ObservableObject {
 
 struct ContentView: View {
     @ObservedObject var contentData = ContentViewData()
-    @ObservedObject var appData: ApplicationData
+    @EnvironmentObject var appData: ApplicationData
         
     var body: some View {
         VStack(spacing: 8) {
@@ -37,6 +37,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(appData: ApplicationData())
+        ContentView()
+            .environmentObject(ApplicationData())
     }
 }

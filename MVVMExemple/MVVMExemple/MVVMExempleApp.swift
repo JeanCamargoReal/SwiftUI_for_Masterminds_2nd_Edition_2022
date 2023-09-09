@@ -13,7 +13,7 @@ struct MVVMExempleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(appData: appData)
+            ContentView()
                 .environmentObject(appData)
         }
     }

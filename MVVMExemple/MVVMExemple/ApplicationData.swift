@@ -8,5 +8,9 @@
 import SwiftUI
 
 class ApplicationData: ObservableObject {
-    @Published var title: String = "Default Title"
+    @Published var userData: BookViewModel
+
+    init() {
+        userData = BookViewModel(book: BookModel(title: "Default Title", author: "Unknown"))
+    }
 }

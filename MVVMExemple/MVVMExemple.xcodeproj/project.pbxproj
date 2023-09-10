@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70490E32AAE057F00FD1B42 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70490E22AAE057F00FD1B42 /* BookModel.swift */; };
+		A70490E52AAE07C200FD1B42 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70490E42AAE07C200FD1B42 /* BookViewModel.swift */; };
 		A774CD672AA5FA0E008A65A8 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A774CD662AA5FA0D008A65A8 /* ApplicationData.swift */; };
 		C51327642A82B81E00174A11 /* MVVMExempleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51327632A82B81E00174A11 /* MVVMExempleApp.swift */; };
 		C51327662A82B81E00174A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51327652A82B81E00174A11 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70490E22AAE057F00FD1B42 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		A70490E42AAE07C200FD1B42 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
 		A774CD662AA5FA0D008A65A8 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
 		C51327602A82B81E00174A11 /* MVVMExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51327632A82B81E00174A11 /* MVVMExempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExempleApp.swift; sourceTree = "<group>"; };
@@ -54,9 +58,11 @@
 		C51327622A82B81E00174A11 /* MVVMExemple */ = {
 			isa = PBXGroup;
 			children = (
-				C51327632A82B81E00174A11 /* MVVMExempleApp.swift */,
-				C51327652A82B81E00174A11 /* ContentView.swift */,
 				A774CD662AA5FA0D008A65A8 /* ApplicationData.swift */,
+				A70490E22AAE057F00FD1B42 /* BookModel.swift */,
+				A70490E42AAE07C200FD1B42 /* BookViewModel.swift */,
+				C51327652A82B81E00174A11 /* ContentView.swift */,
+				C51327632A82B81E00174A11 /* MVVMExempleApp.swift */,
 				C51327672A82B82100174A11 /* Assets.xcassets */,
 				C51327692A82B82100174A11 /* MVVMExemple.entitlements */,
 				C513276A2A82B82100174A11 /* Preview Content */,
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70490E52AAE07C200FD1B42 /* BookViewModel.swift in Sources */,
 				A774CD672AA5FA0E008A65A8 /* ApplicationData.swift in Sources */,
 				C51327662A82B81E00174A11 /* ContentView.swift in Sources */,
+				A70490E32AAE057F00FD1B42 /* BookModel.swift in Sources */,
 				C51327642A82B81E00174A11 /* MVVMExempleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

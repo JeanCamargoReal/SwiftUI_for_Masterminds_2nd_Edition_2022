@@ -7,29 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A70490E32AAE057F00FD1B42 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70490E22AAE057F00FD1B42 /* BookModel.swift */; };
-		A70490E52AAE07C200FD1B42 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70490E42AAE07C200FD1B42 /* BookViewModel.swift */; };
-		A774CD672AA5FA0E008A65A8 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A774CD662AA5FA0D008A65A8 /* ApplicationData.swift */; };
-		C51327642A82B81E00174A11 /* MVVMExempleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51327632A82B81E00174A11 /* MVVMExempleApp.swift */; };
-		C51327662A82B81E00174A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51327652A82B81E00174A11 /* ContentView.swift */; };
-		C51327682A82B82100174A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51327672A82B82100174A11 /* Assets.xcassets */; };
-		C513276C2A82B82100174A11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C513276B2A82B82100174A11 /* Preview Assets.xcassets */; };
+		A70490F62AAF563D00FD1B42 /* ControlViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70490F52AAF563D00FD1B42 /* ControlViewsApp.swift */; };
+		A70490F82AAF563D00FD1B42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70490F72AAF563D00FD1B42 /* ContentView.swift */; };
+		A70490FA2AAF563F00FD1B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70490F92AAF563F00FD1B42 /* Assets.xcassets */; };
+		A70490FE2AAF563F00FD1B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70490FD2AAF563F00FD1B42 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A70490E22AAE057F00FD1B42 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
-		A70490E42AAE07C200FD1B42 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
-		A774CD662AA5FA0D008A65A8 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
-		C51327602A82B81E00174A11 /* MVVMExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C51327632A82B81E00174A11 /* MVVMExempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExempleApp.swift; sourceTree = "<group>"; };
-		C51327652A82B81E00174A11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C51327672A82B82100174A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C51327692A82B82100174A11 /* MVVMExemple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVVMExemple.entitlements; sourceTree = "<group>"; };
-		C513276B2A82B82100174A11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A70490F22AAF563D00FD1B42 /* ControlViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70490F52AAF563D00FD1B42 /* ControlViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewsApp.swift; sourceTree = "<group>"; };
+		A70490F72AAF563D00FD1B42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A70490F92AAF563F00FD1B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A70490FB2AAF563F00FD1B42 /* ControlViews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControlViews.entitlements; sourceTree = "<group>"; };
+		A70490FD2AAF563F00FD1B42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C513275D2A82B81E00174A11 /* Frameworks */ = {
+		A70490EF2AAF563D00FD1B42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,65 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A70490E62AAF521100FD1B42 /* Model */ = {
+		A70490E92AAF563D00FD1B42 = {
 			isa = PBXGroup;
 			children = (
-				A70490E22AAE057F00FD1B42 /* BookModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A70490E72AAF522300FD1B42 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				A70490E42AAE07C200FD1B42 /* BookViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		A70490E82AAF523C00FD1B42 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C51327652A82B81E00174A11 /* ContentView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C51327572A82B81E00174A11 = {
-			isa = PBXGroup;
-			children = (
-				C51327622A82B81E00174A11 /* MVVMExemple */,
-				C51327612A82B81E00174A11 /* Products */,
+				A70490F42AAF563D00FD1B42 /* ControlViews */,
+				A70490F32AAF563D00FD1B42 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C51327612A82B81E00174A11 /* Products */ = {
+		A70490F32AAF563D00FD1B42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C51327602A82B81E00174A11 /* MVVMExemple.app */,
+				A70490F22AAF563D00FD1B42 /* ControlViews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C51327622A82B81E00174A11 /* MVVMExemple */ = {
+		A70490F42AAF563D00FD1B42 /* ControlViews */ = {
 			isa = PBXGroup;
 			children = (
-				A70490E82AAF523C00FD1B42 /* View */,
-				A70490E62AAF521100FD1B42 /* Model */,
-				A70490E72AAF522300FD1B42 /* ViewModel */,
-				A774CD662AA5FA0D008A65A8 /* ApplicationData.swift */,
-				C51327632A82B81E00174A11 /* MVVMExempleApp.swift */,
-				C51327672A82B82100174A11 /* Assets.xcassets */,
-				C51327692A82B82100174A11 /* MVVMExemple.entitlements */,
-				C513276A2A82B82100174A11 /* Preview Content */,
+				A70490F52AAF563D00FD1B42 /* ControlViewsApp.swift */,
+				A70490F72AAF563D00FD1B42 /* ContentView.swift */,
+				A70490F92AAF563F00FD1B42 /* Assets.xcassets */,
+				A70490FB2AAF563F00FD1B42 /* ControlViews.entitlements */,
+				A70490FC2AAF563F00FD1B42 /* Preview Content */,
 			);
-			path = MVVMExemple;
+			path = ControlViews;
 			sourceTree = "<group>";
 		};
-		C513276A2A82B82100174A11 /* Preview Content */ = {
+		A70490FC2AAF563F00FD1B42 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C513276B2A82B82100174A11 /* Preview Assets.xcassets */,
+				A70490FD2AAF563F00FD1B42 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -105,39 +72,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C513275F2A82B81E00174A11 /* MVVMExemple */ = {
+		A70490F12AAF563D00FD1B42 /* ControlViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C513276F2A82B82100174A11 /* Build configuration list for PBXNativeTarget "MVVMExemple" */;
+			buildConfigurationList = A70491012AAF563F00FD1B42 /* Build configuration list for PBXNativeTarget "ControlViews" */;
 			buildPhases = (
-				C513275C2A82B81E00174A11 /* Sources */,
-				C513275D2A82B81E00174A11 /* Frameworks */,
-				C513275E2A82B81E00174A11 /* Resources */,
+				A70490EE2AAF563D00FD1B42 /* Sources */,
+				A70490EF2AAF563D00FD1B42 /* Frameworks */,
+				A70490F02AAF563D00FD1B42 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MVVMExemple;
-			productName = MVVMExemple;
-			productReference = C51327602A82B81E00174A11 /* MVVMExemple.app */;
+			name = ControlViews;
+			productName = ControlViews;
+			productReference = A70490F22AAF563D00FD1B42 /* ControlViews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C51327582A82B81E00174A11 /* Project object */ = {
+		A70490EA2AAF563D00FD1B42 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					C513275F2A82B81E00174A11 = {
+					A70490F12AAF563D00FD1B42 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = C513275B2A82B81E00174A11 /* Build configuration list for PBXProject "MVVMExemple" */;
+			buildConfigurationList = A70490ED2AAF563D00FD1B42 /* Build configuration list for PBXProject "ControlViews" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,45 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C51327572A82B81E00174A11;
-			productRefGroup = C51327612A82B81E00174A11 /* Products */;
+			mainGroup = A70490E92AAF563D00FD1B42;
+			productRefGroup = A70490F32AAF563D00FD1B42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C513275F2A82B81E00174A11 /* MVVMExemple */,
+				A70490F12AAF563D00FD1B42 /* ControlViews */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C513275E2A82B81E00174A11 /* Resources */ = {
+		A70490F02AAF563D00FD1B42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C513276C2A82B82100174A11 /* Preview Assets.xcassets in Resources */,
-				C51327682A82B82100174A11 /* Assets.xcassets in Resources */,
+				A70490FE2AAF563F00FD1B42 /* Preview Assets.xcassets in Resources */,
+				A70490FA2AAF563F00FD1B42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C513275C2A82B81E00174A11 /* Sources */ = {
+		A70490EE2AAF563D00FD1B42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70490E52AAE07C200FD1B42 /* BookViewModel.swift in Sources */,
-				A774CD672AA5FA0E008A65A8 /* ApplicationData.swift in Sources */,
-				C51327662A82B81E00174A11 /* ContentView.swift in Sources */,
-				A70490E32AAE057F00FD1B42 /* BookModel.swift in Sources */,
-				C51327642A82B81E00174A11 /* MVVMExempleApp.swift in Sources */,
+				A70490F82AAF563D00FD1B42 /* ContentView.swift in Sources */,
+				A70490F62AAF563D00FD1B42 /* ControlViewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C513276D2A82B82100174A11 /* Debug */ = {
+		A70490FF2AAF563F00FD1B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		C513276E2A82B82100174A11 /* Release */ = {
+		A70491002AAF563F00FD1B42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,16 +256,16 @@
 			};
 			name = Release;
 		};
-		C51327702A82B82100174A11 /* Debug */ = {
+		A70491022AAF563F00FD1B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MVVMExemple/MVVMExemple.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ControlViews/ControlViews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVMExemple/Preview Content\"";
-				DEVELOPMENT_TEAM = KA74A9Q966;
+				DEVELOPMENT_ASSET_PATHS = "\"ControlViews/Preview Content\"";
+				DEVELOPMENT_TEAM = G66U4NVLWF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +284,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Jean-Camargo.MVVMExemple";
+				PRODUCT_BUNDLE_IDENTIFIER = jeancamargoreal.ControlViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -330,16 +294,16 @@
 			};
 			name = Debug;
 		};
-		C51327712A82B82100174A11 /* Release */ = {
+		A70491032AAF563F00FD1B42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MVVMExemple/MVVMExemple.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ControlViews/ControlViews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVMExemple/Preview Content\"";
-				DEVELOPMENT_TEAM = KA74A9Q966;
+				DEVELOPMENT_ASSET_PATHS = "\"ControlViews/Preview Content\"";
+				DEVELOPMENT_TEAM = G66U4NVLWF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -358,7 +322,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Jean-Camargo.MVVMExemple";
+				PRODUCT_BUNDLE_IDENTIFIER = jeancamargoreal.ControlViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -371,25 +335,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C513275B2A82B81E00174A11 /* Build configuration list for PBXProject "MVVMExemple" */ = {
+		A70490ED2AAF563D00FD1B42 /* Build configuration list for PBXProject "ControlViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C513276D2A82B82100174A11 /* Debug */,
-				C513276E2A82B82100174A11 /* Release */,
+				A70490FF2AAF563F00FD1B42 /* Debug */,
+				A70491002AAF563F00FD1B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C513276F2A82B82100174A11 /* Build configuration list for PBXNativeTarget "MVVMExemple" */ = {
+		A70491012AAF563F00FD1B42 /* Build configuration list for PBXNativeTarget "ControlViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C51327702A82B82100174A11 /* Debug */,
-				C51327712A82B82100174A11 /* Release */,
+				A70491022AAF563F00FD1B42 /* Debug */,
+				A70491032AAF563F00FD1B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C51327582A82B81E00174A11 /* Project object */;
+	rootObject = A70490EA2AAF563D00FD1B42 /* Project object */;
 }

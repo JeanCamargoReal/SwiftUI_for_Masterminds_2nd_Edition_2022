@@ -10,6 +10,6 @@ import Foundation
 struct BookViewModel {
     var book: BookModel
     var header: String {
-        return book.title + "" + book.author
+        return book.title + " " + book.author
     }
 }

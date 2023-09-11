@@ -9,6 +9,7 @@ import SwiftUI
 
 class ContentViewData: ObservableObject {
     @Published var titleInput: String = ""
+    @Published var authorInput: String = ""
 }
 
 struct ContentView: View {
@@ -17,21 +18,21 @@ struct ContentView: View {
         
     var body: some View {
         VStack(spacing: 8) {
-            Text(appData.title)
+            Text(appData.userData.header)
                 .padding(10)
             TextField("Insert Title", text: $contentData.titleInput)
                 .textFieldStyle(.roundedBorder)
+            TextField("Insert Author", text: $contentData.authorInput)
+                .textFieldStyle(.roundedBorder)
             Button {
-                appData.title = contentData.titleInput
+                appData.userData.book.title = contentData.titleInput
+                appData.userData.book.author = contentData.authorInput
             } label: {
                 Text("Save")
             }
             Spacer()
         }
         .padding()
-        .onAppear {
-            contentData.titleInput = appData.title
-        }
     }
 }
 

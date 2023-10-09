@@ -12,6 +12,7 @@
 		A70490FA2AAF563F00FD1B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70490F92AAF563F00FD1B42 /* Assets.xcassets */; };
 		A70490FE2AAF563F00FD1B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70490FD2AAF563F00FD1B42 /* Preview Assets.xcassets */; };
 		A7E2E68A2AD2168200F2B3CE /* ScalingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E2E6892AD2168200F2B3CE /* ScalingButtons.swift */; };
+		A7E2E68C2AD35D0700F2B3CE /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E2E68B2AD35D0700F2B3CE /* MyButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A70490FB2AAF563F00FD1B42 /* ControlViews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControlViews.entitlements; sourceTree = "<group>"; };
 		A70490FD2AAF563F00FD1B42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7E2E6892AD2168200F2B3CE /* ScalingButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingButtons.swift; sourceTree = "<group>"; };
+		A7E2E68B2AD35D0700F2B3CE /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A70490F52AAF563D00FD1B42 /* ControlViewsApp.swift */,
 				A70490F72AAF563D00FD1B42 /* ContentView.swift */,
 				A7E2E6892AD2168200F2B3CE /* ScalingButtons.swift */,
+				A7E2E68B2AD35D0700F2B3CE /* MyButtonStyle.swift */,
 				A70490F92AAF563F00FD1B42 /* Assets.xcassets */,
 				A70490FB2AAF563F00FD1B42 /* ControlViews.entitlements */,
 				A70490FC2AAF563F00FD1B42 /* Preview Content */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70490F82AAF563D00FD1B42 /* ContentView.swift in Sources */,
+				A7E2E68C2AD35D0700F2B3CE /* MyButtonStyle.swift in Sources */,
 				A7E2E68A2AD2168200F2B3CE /* ScalingButtons.swift in Sources */,
 				A70490F62AAF563D00FD1B42 /* ControlViewsApp.swift in Sources */,
 			);

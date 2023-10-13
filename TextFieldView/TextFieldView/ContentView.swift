@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var title: String = "Default Tile"
+    @State private var titleInput: String = ""
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        VStack(spacing: 15) {
+            Text(title)
+                .lineLimit(1)
+                .padding()
+                .background(.yellow)
+            TextField("Insert Title", text: $titleInput)
+                .textFieldStyle(.roundedBorder)
+                .textInputAutocapitalization(.words)
+            Button("Save") {
+                title = titleInput
+                titleInput = ""
+            }
+            Spacer()
+        }.padding()
     }
 }
 

@@ -27,7 +27,7 @@ struct ContentView: View {
             TextField("Insert Name", text: $nameInput)
                 .textFieldStyle(.roundedBorder)
                 .padding(4)
-                .background(focusName == .surname ? Color(white: 0.9) : .white)
+                .background(focusName == .name ? Color(white: 0.9) : .white)
                 .focused($focusName, equals: .name)
             TextField("Insert Surname", text: $surnameInput)
                 .textFieldStyle(.roundedBorder)

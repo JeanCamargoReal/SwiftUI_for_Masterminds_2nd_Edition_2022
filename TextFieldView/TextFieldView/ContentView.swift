@@ -19,13 +19,23 @@ struct ContentView: View {
                 .background(.yellow)
             TextField("Insert Title", text: $titleInput)
                 .textFieldStyle(.roundedBorder)
-                .textInputAutocapitalization(.words)
-            Button("Save") {
-                title = titleInput
-                titleInput = ""
+                .submitLabel(.continue)
+                .onSubmit {
+                    assignTitle()
+                }
+            HStack {
+                Spacer()
+                Button("Save") {
+                    assignTitle()
+                }
             }
             Spacer()
         }.padding()
+    }
+
+    func assignTitle() {
+        title = titleInput
+        titleInput = ""
     }
 }
 

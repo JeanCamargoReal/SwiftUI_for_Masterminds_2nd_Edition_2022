@@ -38,6 +38,7 @@ struct ContentView: View {
                 Spacer()
                 Button("Save") {
                     title = nameInput + " " + surnameInput
+                    focusName = nil
                 }
             }
             Spacer()

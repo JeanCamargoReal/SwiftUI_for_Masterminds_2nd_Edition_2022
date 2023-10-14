@@ -29,11 +29,21 @@ struct ContentView: View {
                 .padding(4)
                 .background(focusName == .name ? Color(white: 0.9) : .white)
                 .focused($focusName, equals: .name)
+                .onChange(of: nameInput) {
+                    if nameInput.count > 10 {
+                        nameInput = String(nameInput.prefix(10))
+                    }
+                }
             TextField("Insert Surname", text: $surnameInput)
                 .textFieldStyle(.roundedBorder)
                 .padding(4)
                 .background(focusName == .surname ? Color(white: 0.9) : .white)
                 .focused($focusName, equals: .surname)
+                .onChange(of: surnameInput) {
+                    if surnameInput.count > 15 {
+                        surnameInput = String(surnameInput.prefix(15))
+                    }
+                }
             HStack {
                 Spacer()
                 Button("Save") {

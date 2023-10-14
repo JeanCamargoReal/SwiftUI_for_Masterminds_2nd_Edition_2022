@@ -11,6 +11,7 @@
 		A71B92CC2AD990C30080037C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71B92CB2AD990C30080037C /* ContentView.swift */; };
 		A71B92CE2AD990C60080037C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71B92CD2AD990C60080037C /* Assets.xcassets */; };
 		A71B92D22AD990C60080037C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71B92D12AD990C60080037C /* Preview Assets.xcassets */; };
+		A71B92D92ADB472E0080037C /* OnlyIntergerNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71B92D82ADB472D0080037C /* OnlyIntergerNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A71B92CD2AD990C60080037C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A71B92CF2AD990C60080037C /* TextFieldView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextFieldView.entitlements; sourceTree = "<group>"; };
 		A71B92D12AD990C60080037C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A71B92D82ADB472D0080037C /* OnlyIntergerNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyIntergerNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A71B92C92AD990C30080037C /* TextFieldViewApp.swift */,
 				A71B92CB2AD990C30080037C /* ContentView.swift */,
+				A71B92D82ADB472D0080037C /* OnlyIntergerNumbers.swift */,
 				A71B92CD2AD990C60080037C /* Assets.xcassets */,
 				A71B92CF2AD990C60080037C /* TextFieldView.entitlements */,
 				A71B92D02AD990C60080037C /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				A71B92CC2AD990C30080037C /* ContentView.swift in Sources */,
 				A71B92CA2AD990C30080037C /* TextFieldViewApp.swift in Sources */,
+				A71B92D92ADB472E0080037C /* OnlyIntergerNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

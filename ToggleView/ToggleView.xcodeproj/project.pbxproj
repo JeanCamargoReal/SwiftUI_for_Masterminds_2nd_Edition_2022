@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70800802AE1684C008960E3 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A708007F2AE1684C008960E3 /* ToggleButton.swift */; };
 		A71B931D2ADC74D30080037C /* ToggleViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71B931C2ADC74D30080037C /* ToggleViewApp.swift */; };
 		A71B931F2ADC74D30080037C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71B931E2ADC74D30080037C /* ContentView.swift */; };
 		A71B93212ADC74D50080037C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71B93202ADC74D50080037C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A708007F2AE1684C008960E3 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		A71B93192ADC74D30080037C /* ToggleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71B931C2ADC74D30080037C /* ToggleViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewApp.swift; sourceTree = "<group>"; };
 		A71B931E2ADC74D30080037C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				A71B931C2ADC74D30080037C /* ToggleViewApp.swift */,
 				A71B931E2ADC74D30080037C /* ContentView.swift */,
+				A708007F2AE1684C008960E3 /* ToggleButton.swift */,
 				A71B93202ADC74D50080037C /* Assets.xcassets */,
 				A71B93222ADC74D50080037C /* ToggleView.entitlements */,
 				A71B93232ADC74D50080037C /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71B931F2ADC74D30080037C /* ContentView.swift in Sources */,
+				A70800802AE1684C008960E3 /* ToggleButton.swift in Sources */,
 				A71B931D2ADC74D30080037C /* ToggleViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

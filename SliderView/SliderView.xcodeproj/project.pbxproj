@@ -11,6 +11,7 @@
 		A70800922AE19901008960E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70800912AE19901008960E3 /* ContentView.swift */; };
 		A70800942AE19903008960E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70800932AE19903008960E3 /* Assets.xcassets */; };
 		A70800982AE19903008960E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70800972AE19903008960E3 /* Preview Assets.xcassets */; };
+		A708009F2AE1AA07008960E3 /* SliderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A708009E2AE1AA07008960E3 /* SliderState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A70800932AE19903008960E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70800952AE19903008960E3 /* SliderView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SliderView.entitlements; sourceTree = "<group>"; };
 		A70800972AE19903008960E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A708009E2AE1AA07008960E3 /* SliderState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A708008F2AE19901008960E3 /* SliderViewApp.swift */,
 				A70800912AE19901008960E3 /* ContentView.swift */,
+				A708009E2AE1AA07008960E3 /* SliderState.swift */,
 				A70800932AE19903008960E3 /* Assets.xcassets */,
 				A70800952AE19903008960E3 /* SliderView.entitlements */,
 				A70800962AE19903008960E3 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A708009F2AE1AA07008960E3 /* SliderState.swift in Sources */,
 				A70800922AE19901008960E3 /* ContentView.swift in Sources */,
 				A70800902AE19901008960E3 /* SliderViewApp.swift in Sources */,
 			);

@@ -11,6 +11,7 @@
 		A70800AF2AE1AD54008960E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70800AE2AE1AD54008960E3 /* ContentView.swift */; };
 		A70800B12AE1AD56008960E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70800B02AE1AD56008960E3 /* Assets.xcassets */; };
 		A70800B52AE1AD56008960E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70800B42AE1AD56008960E3 /* Preview Assets.xcassets */; };
+		A70800BC2AE1BF84008960E3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70800BB2AE1BF84008960E3 /* CircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A70800B02AE1AD56008960E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70800B22AE1AD56008960E3 /* ProgressView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProgressView.entitlements; sourceTree = "<group>"; };
 		A70800B42AE1AD56008960E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A70800BB2AE1BF84008960E3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A70800AC2AE1AD54008960E3 /* ProgressViewApp.swift */,
 				A70800AE2AE1AD54008960E3 /* ContentView.swift */,
+				A70800BB2AE1BF84008960E3 /* CircularProgressView.swift */,
 				A70800B02AE1AD56008960E3 /* Assets.xcassets */,
 				A70800B22AE1AD56008960E3 /* ProgressView.entitlements */,
 				A70800B32AE1AD56008960E3 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70800AF2AE1AD54008960E3 /* ContentView.swift in Sources */,
+				A70800BC2AE1BF84008960E3 /* CircularProgressView.swift in Sources */,
 				A70800AD2AE1AD54008960E3 /* ProgressViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

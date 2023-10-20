@@ -11,6 +11,7 @@
 		A70800CC2AE2AB5D008960E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70800CB2AE2AB5D008960E3 /* ContentView.swift */; };
 		A70800CE2AE2AB5F008960E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70800CD2AE2AB5F008960E3 /* Assets.xcassets */; };
 		A70800D22AE2AB5F008960E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70800D12AE2AB5F008960E3 /* Preview Assets.xcassets */; };
+		A70800D92AE2B1DE008960E3 /* StepsOfAStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70800D82AE2B1DE008960E3 /* StepsOfAStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A70800CD2AE2AB5F008960E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70800CF2AE2AB5F008960E3 /* StepperView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepperView.entitlements; sourceTree = "<group>"; };
 		A70800D12AE2AB5F008960E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A70800D82AE2B1DE008960E3 /* StepsOfAStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsOfAStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A70800CD2AE2AB5F008960E3 /* Assets.xcassets */,
 				A70800CF2AE2AB5F008960E3 /* StepperView.entitlements */,
 				A70800D02AE2AB5F008960E3 /* Preview Content */,
+				A70800D82AE2B1DE008960E3 /* StepsOfAStepper.swift */,
 			);
 			path = StepperView;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70800D92AE2B1DE008960E3 /* StepsOfAStepper.swift in Sources */,
 				A70800CC2AE2AB5D008960E3 /* ContentView.swift in Sources */,
 				A70800CA2AE2AB5D008960E3 /* StepperViewApp.swift in Sources */,
 			);

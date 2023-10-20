@@ -1,3 +1,4 @@
-import UIKit
+import Foundation
+import Combine
 
-var greeting = "Hello, playground"
+let myPyblisher = Just("55")

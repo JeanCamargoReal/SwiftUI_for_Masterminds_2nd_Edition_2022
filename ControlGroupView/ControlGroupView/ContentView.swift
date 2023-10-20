@@ -24,7 +24,7 @@ struct ContentView: View {
                 } label: {
                     Label("Second", systemImage: "mail")
                 }
-            }
+            }.controlGroupStyle(.navigation)
             Spacer()
         }
         .padding()

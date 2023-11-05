@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  CombineExemple
+//  CombineAndSwiftUI
 //
-//  Created by Jean Paulo Marcel Henrique de Camargo on 20/10/23.
+//  Created by Jean Paulo Marcel Henrique de Camargo on 05/11/23.
 //
 
 import SwiftUI

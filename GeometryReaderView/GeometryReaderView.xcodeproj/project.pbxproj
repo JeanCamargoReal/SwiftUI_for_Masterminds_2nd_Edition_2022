@@ -12,6 +12,7 @@
 		A788EDEF2AF94FD500F810D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A788EDEE2AF94FD500F810D4 /* Assets.xcassets */; };
 		A788EDF32AF94FD500F810D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A788EDF22AF94FD500F810D4 /* Preview Assets.xcassets */; };
 		A788EDFA2AF954B900F810D4 /* AdaptingAnImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788EDF92AF954B900F810D4 /* AdaptingAnImageView.swift */; };
+		A788EDFC2AF95A9700F810D4 /* ReadingThePositionOfTheGeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788EDFB2AF95A9700F810D4 /* ReadingThePositionOfTheGeometryReaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A788EDF02AF94FD500F810D4 /* GeometryReaderView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeometryReaderView.entitlements; sourceTree = "<group>"; };
 		A788EDF22AF94FD500F810D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A788EDF92AF954B900F810D4 /* AdaptingAnImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptingAnImageView.swift; sourceTree = "<group>"; };
+		A788EDFB2AF95A9700F810D4 /* ReadingThePositionOfTheGeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingThePositionOfTheGeometryReaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A788EDEA2AF94FD300F810D4 /* GeometryReaderViewApp.swift */,
 				A788EDEC2AF94FD300F810D4 /* ContentView.swift */,
 				A788EDF92AF954B900F810D4 /* AdaptingAnImageView.swift */,
+				A788EDFB2AF95A9700F810D4 /* ReadingThePositionOfTheGeometryReaderView.swift */,
 				A788EDEE2AF94FD500F810D4 /* Assets.xcassets */,
 				A788EDF02AF94FD500F810D4 /* GeometryReaderView.entitlements */,
 				A788EDF12AF94FD500F810D4 /* Preview Content */,
@@ -144,6 +147,7 @@
 			files = (
 				A788EDED2AF94FD300F810D4 /* ContentView.swift in Sources */,
 				A788EDEB2AF94FD300F810D4 /* GeometryReaderViewApp.swift in Sources */,
+				A788EDFC2AF95A9700F810D4 /* ReadingThePositionOfTheGeometryReaderView.swift in Sources */,
 				A788EDFA2AF954B900F810D4 /* AdaptingAnImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

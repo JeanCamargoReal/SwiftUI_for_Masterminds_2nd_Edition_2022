@@ -7,15 +7,21 @@
 
 import SwiftUI
 
+class ContentViewData: ObservableObject {
+    @Published var counter: Int = 0
+
+    let timerPublisher = Timer.publish(every: 2, on: RunLoop.main, in: .common)
+        .autoconnect()
+}
+
 struct ContentView: View {
+    @ObservedObject var contentData = ContentViewData()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Counter: \(contentData.counter)")
+            .onReceive(contentData.timerPublisher, perform: { _ in
+                contentData.counter += 1
+            })
     }
 }
 
